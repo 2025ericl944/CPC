@@ -13,5 +13,9 @@ public class SnacheDisplay extends JPanel implements ActionListener, KeyListener
     Graphics2D g2;
     Timer refreshRate = new Timer(2, this);
     boolean right, left, up, down;
+    int x, y, size;
+    JLabel slabel = new JLabel("Score: ");
+    ArrayList<Integer> partsX = new ArrayList(), partsY = new ArrayList(), foodX = new ArrayList(), foodY = new ArrayList();
+    
     
 }
